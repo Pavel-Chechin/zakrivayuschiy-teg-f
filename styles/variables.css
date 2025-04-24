@@ -1,1 +1,31 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    --main-font-family: "Inter", sans-serif;
+    --main-font-weight: 400;
+    --secondary-font-family: "PressStart2P", fantasy;
+    --heading-font-weight: 700;
+
+    --background-image: repeating-linear-gradient(
+      to left,
+      #d3d3d3 0 2px,
+      #d3d3d300 2px 4px
+    ),
+    repeating-linear-gradient(to bottom, #d3d3d3 0 2px, #d3d3d300 2px 4px),
+    linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
+
+    --color-black: #000;
+    --color-white: #fff;
+
+    --like-main-body-color: none;
+    --like-contour-color: var(--text-color, #000);
+    --like-sparks-color: #ff0000;
+
+    --text-color: var(--color-black, #000);
+    --background-color: var(--color-white, #fff);
+
+    --button-text-color: var(--color-white, #fff);
+
+    --like-main-body-color: none;
+    --like-contour-color: var(--text-color, #000);
+    --like-sparks-color: #ff0000;
+}
