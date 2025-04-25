@@ -23,6 +23,8 @@
     --text-color: var(--color-black, #000);
     --background-color: var(--color-white, #fff);
 
+    --modal-background-color: var(--color-black, #000);
+
     --button-text-color: var(--color-white, #fff);
 
     --like-main-body-color: none;
